@@ -33,7 +33,7 @@
 body {
 	overflow-x: hidden;
 	background-size: 50px;
-	background-image: url(../img/bg.jpg);
+	background-image: url(img/bg.jpg);
 }
 
 body::-webkit-scrollbar {
