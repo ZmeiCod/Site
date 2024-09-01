@@ -127,7 +127,7 @@ async function formsSend(e) {
 
 	if (error === 0) {
 		forms.classList.add('-sending');
-		let response = await fetch('\sending.php', {
+		let response = await fetch('sending.php', {
 			method: 'Post',
 			body: formsData
 		});
